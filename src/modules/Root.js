@@ -115,15 +115,7 @@ const Root = React.memo(() => {
               marginTop: theme.spacing_1,
             }}
           >
-            Hi I am Crystina, a current MMath (Master of Mathematics) student at
-            University of Waterloo, supervised by Jimmy Lin. I received my
-            Bachelor Degree in Computer Science at Hong Kong University of
-            Science and Technology. I was an research intern at Max Planck
-            Institut für Informatik and NAVER (네이버), and exchanged to
-            University of California, Los Angelas and University of Waterloo
-            during my undergraduate. My current research interests lies under
-            the intersection between Information Retrieval and Natural Language
-            Processing, especially targeting on data efficiency.
+            Hi, I'm Bryan. I graduated from UC Berkeley in 2017 with a degree in Math. After graduating, I interned and then worked full-time at Bill.com, an accounting platform for small businesses. I love data science and ML, especially NLP.
           </div>
           <div
             style={{
@@ -163,11 +155,11 @@ const Root = React.memo(() => {
               data={[
                 { label: "PyTorch", backgroundColor: theme.yosemiteOrange() },
                 {
-                  label: "Tensor Flow",
+                  label: "TensorFlow",
                   backgroundColor: theme.yosemiteOrange(),
                 },
                 {
-                  label: "Python",
+                  label: "Sklearn",
                   backgroundColor: theme.yosemiteOrange(),
                 },
               ]}
@@ -194,10 +186,7 @@ const Root = React.memo(() => {
             />
           </View>
           <div style={{ ...gstyles.p1, color: theme.text() }}>
-            Qui quis nostrud adipisicing aliqua ullamco veniam ipsum excepteur
-            consectetur amet exercitation reprehenderit pariatur. Ex voluptate
-            elit consequat fugiat. Enim deserunt commodo in cupidatat non
-            voluptate consequat nostrud.
+            I researched and developed ML solutions to extract information from semi-structured invoices. I created a model that extracts invoice fields, such as invoice date, with 88% accuracy. The problem was hard because we had a limited amount of data, and each customer had a different invoice template. Not only did I develop models, I also brought them to production and built infrastructure as well.
           </div>
           <View
             row
@@ -220,10 +209,14 @@ const Root = React.memo(() => {
               style={{ marginLeft: theme.spacing_1 }}
               horizontal
               data={[
-                { label: "PyTorch", backgroundColor: theme.yosemiteBlue() },
+                { label: "Pandas", backgroundColor: theme.yosemiteBlue() },
 
                 {
-                  label: "Python",
+                  label: "Catboost",
+                  backgroundColor: theme.yosemiteBlue(),
+                },
+                {
+                  label: "Java",
                   backgroundColor: theme.yosemiteBlue(),
                 },
               ]}
@@ -251,10 +244,7 @@ const Root = React.memo(() => {
           </View>
 
           <div style={{ ...gstyles.p1, color: theme.text() }}>
-            Anim exercitation proident ipsum officia ut minim voluptate do anim
-            veniam commodo. Sit qui non occaecat sit dolor dolor velit proident
-            veniam id laboris. Nostrud reprehenderit magna ex consequat
-            adipisicing id excepteur voluptate mollit ut dolor proident.
+            I built and deployed risk models that flag fraudulent accounts on our network. The new system reduces the volume of reviewed transactions with fraud capture rate of 60%. I wrote the model, deployment scripts, and the integration code with the main application. 
           </div>
           <div
             style={{
@@ -275,9 +265,52 @@ const Root = React.memo(() => {
               // marginRight: theme.spacing_1,
             }}
           />
-          <Project />
-          <Project />
-          <Project />
+        <View>
+          <View
+            row
+            style={{
+              alignItems: "center",
+              marginTop: theme.spacing_1,
+              marginBottom: theme.spacing_2,
+            }}
+          >
+            <div
+              style={{
+                ...gstyles.p1_bold,
+                color: theme.text(),
+              }}
+            >
+              HANDS FREE MUSIC APP
+            </div>
+          </View>
+
+          <div style={{ ...gstyles.p1, color: theme.text() }}>
+            Developer of an iOS app that uses voice commands (keyword spotting) to control Apple Music. Use case is for switching songs while exercising or doing an activity where it’s hard to use your hands.
+          </div>
+        </View>          
+        <View>
+          <View
+            row
+            style={{
+              alignItems: "center",
+              marginTop: theme.spacing_1,
+              marginBottom: theme.spacing_2,
+            }}
+          >
+            <div
+              style={{
+                ...gstyles.p1_bold,
+                color: theme.text(),
+              }}
+            >
+              AIRBNB SCRAPER
+            </div>
+          </View>
+
+          <div style={{ ...gstyles.p1, color: theme.text() }}>
+            Developer of a service that scrapes Airbnb booking data every day for all 1 million+ listings in North America, and stores results in MongoDB.
+          </div>
+        </View>
           <View style={{ height: theme.spacing_1 * 4 }} />
         </View>
       </View>
