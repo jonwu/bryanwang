@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bryanwang/static/css/main.2a0b81d1.chunk.css",
+    "main.js": "/bryanwang/static/js/main.2e04dc73.chunk.js",
+    "main.js.map": "/bryanwang/static/js/main.2e04dc73.chunk.js.map",
+    "runtime-main.js": "/bryanwang/static/js/runtime-main.d63e47eb.js",
+    "runtime-main.js.map": "/bryanwang/static/js/runtime-main.d63e47eb.js.map",
+    "static/js/2.1fb8d63d.chunk.js": "/bryanwang/static/js/2.1fb8d63d.chunk.js",
+    "static/js/2.1fb8d63d.chunk.js.map": "/bryanwang/static/js/2.1fb8d63d.chunk.js.map",
+    "index.html": "/bryanwang/index.html",
+    "static/css/main.2a0b81d1.chunk.css.map": "/bryanwang/static/css/main.2a0b81d1.chunk.css.map",
+    "static/js/2.1fb8d63d.chunk.js.LICENSE.txt": "/bryanwang/static/js/2.1fb8d63d.chunk.js.LICENSE.txt",
+    "static/media/bryan.e9348caa.jpg": "/bryanwang/static/media/bryan.e9348caa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d63e47eb.js",
+    "static/js/2.1fb8d63d.chunk.js",
+    "static/css/main.2a0b81d1.chunk.css",
+    "static/js/main.2e04dc73.chunk.js"
+  ]
+}
